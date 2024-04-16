@@ -5,7 +5,7 @@ const { OPENAI_API_KEY } = require("./Config.json");
 class ChatGPT extends Component {
   state = {
     movieData: [],
-    prompt: "Aimes tu la saucisse ?",
+    prompt: "Donne moi les informations sur les voiyage au brésil ?",
     result: "",
     loading: "",
   };
